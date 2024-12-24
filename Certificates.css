@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("Images/Shooting\ Star.webp");
+    background-size: cover;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar span {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.navbar span:hover {
+    background-color: white;
+    color: black;
+}
+
+.certificates {
+    height: auto;
+    width: 100%;
+}
+
+.certificates h1 {
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.certificates-box {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.certificate {
+    border: 2px dashed white;
+    height: 20rem;
+    width: 30rem;
+}
+
+.certificate h3 {
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificate-img {
+    border-top: 2px dotted white;
+    height: 85%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.certificate-img img {
+    height: 80%;
+    width: auto;
+}
+
+.certificate-img p {
+    font-size: 1rem;
+}

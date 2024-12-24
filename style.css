@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("Images/Shooting\ Star.webp");
+    background-size: cover;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar span {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.navbar span:hover {
+    background-color: white;
+    color: black;
+}
+
+.introduction {
+    height: 20rem;
+    width: 100%;
+    color: white;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.img-box {
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-box img {
+    height: auto;
+    width: 100%;
+}
+
+.bio {
+    height: 15rem;
+    width: 50rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+.connect-boxes {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.connect {
+    height: 2rem;
+    width: 2rem;
+}
+
+.connect img {
+    height: auto;
+    width: 100%;
+}
+
+.projects {
+    height: auto;
+    width: 100%;
+}
+
+.projects h1 {
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.projects-box {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.project {
+    border: 2px dashed white;
+    height: 30rem;
+    width: 30rem;
+}
+
+.project h3 {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-img {
+    border-top: 2px dotted white;
+    border-bottom: 2px dotted white;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.project-img img {
+    height: 70%;
+    width: auto;
+}
+
+.project-img p {
+    font-size: 1rem;
+}
+
+.project-info {
+    height: 30%;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.project-info p {
+    margin: 0.5rem 0;
+}
+
+.project-buttons {
+    height: auto;
+    width: auto;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project-buttons button {
+    height: auto;
+    width: auto;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+.show-all {
+    height: auto;
+    width: auto;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-all button {
+    height: auto;
+    width: auto;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.certificates {
+    height: auto;
+    width: 100%;
+}
+
+.certificates h1 {
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.certificates-box {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.certificate {
+    border: 2px dashed white;
+    height: 20rem;
+    width: 30rem;
+}
+
+.certificate h3 {
+    height: 15%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificate-img {
+    border-top: 2px dotted white;
+    height: 85%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.certificate-img img {
+    height: 80%;
+    width: auto;
+}
+
+.certificate-img p {
+    font-size: 1rem;
+}
+
+.footer {
+    height: auto;
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.footer span {
+    color: white;
+    font-size: 1rem;
+}
