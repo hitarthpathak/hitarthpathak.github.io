@@ -8,9 +8,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-image: url("Images/Shooting\ Star.webp");
-    background-size: cover;
-    color: white;
+    background-color: rgba(130, 130, 130, 0.100);
 }
 
 a {
@@ -22,7 +20,8 @@ a {
     height: auto;
     width: 100%;
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.700);
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,21 +36,18 @@ a {
 }
 
 .navbar span:hover {
-    background-color: white;
-    color: black;
+    text-decoration: underline;
 }
 
 .certificates {
     height: auto;
     width: 100%;
+    padding: 3rem 0;
 }
 
 .certificates h1 {
+    text-align: center;
     text-decoration: underline;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0;
 }
 
 .certificates-box {
@@ -61,14 +57,14 @@ a {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem 0;
+    gap: 3rem;
+    padding: 3rem 0 1rem 0;
 }
 
 .certificate {
-    border: 2px dashed white;
     height: 20rem;
     width: 30rem;
+    background-color: white;
 }
 
 .certificate h3 {
@@ -81,7 +77,7 @@ a {
 }
 
 .certificate-img {
-    border-top: 2px dotted white;
+    border-top: 2px dotted black;
     height: 85%;
     width: 100%;
     margin: auto;
@@ -98,5 +94,22 @@ a {
 }
 
 .certificate-img p {
+    font-size: 1rem;
+}
+
+.footer {
+    height: auto;
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+}
+
+.footer span {
     font-size: 1rem;
 }
