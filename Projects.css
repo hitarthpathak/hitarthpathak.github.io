@@ -101,11 +101,14 @@ a {
     height: 30%;
     width: 100%;
     padding: 0.5rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .project-info p {
     font-size: 1rem;
-    margin: 0.5rem 0;
 }
 
 .working {
@@ -118,8 +121,7 @@ a {
 
 .project-buttons {
     height: auto;
-    width: auto;
-    margin-top: 3%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
