@@ -8,9 +8,7 @@
 body {
     height: 100%;
     width: 100%;
-    background-image: url("Images/Shooting\ Star.webp");
-    background-size: cover;
-    color: white;
+    background-color: rgba(130, 130, 130, 0.100);
 }
 
 a {
@@ -22,7 +20,8 @@ a {
     height: auto;
     width: 100%;
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.700);
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,21 +36,18 @@ a {
 }
 
 .navbar span:hover {
-    background-color: white;
-    color: black;
+    text-decoration: underline;
 }
 
 .projects {
     height: auto;
     width: 100%;
+    padding: 3rem 0;
 }
 
 .projects h1 {
+    text-align: center;
     text-decoration: underline;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0;
 }
 
 .projects-box {
@@ -61,14 +57,14 @@ a {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 1rem;
-    padding: 1rem 0;
+    gap: 3rem;
+    padding: 3rem 0 1rem 0;
 }
 
 .project {
-    border: 2px dashed white;
     height: 30rem;
     width: 30rem;
+    background-color: white;
 }
 
 .project h3 {
@@ -81,8 +77,8 @@ a {
 }
 
 .project-img {
-    border-top: 2px dotted white;
-    border-bottom: 2px dotted white;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
     height: 60%;
     width: 100%;
     display: flex;
@@ -108,14 +104,16 @@ a {
 }
 
 .project-info p {
+    font-size: 1rem;
     margin: 0.5rem 0;
 }
 
 .working {
     height: auto;
     width: fit-content;
-    background-color: white;
-    color: black;
+    font-weight: bold;
+    background-color: red;
+    color: white;
 }
 
 .project-buttons {
@@ -130,6 +128,26 @@ a {
 .project-buttons button {
     height: auto;
     width: auto;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
     padding: 0.3rem;
+    font-size: 0.8rem;
     cursor: pointer;
+}
+
+.footer {
+    height: auto;
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+}
+
+.footer span {
+    font-size: 1rem;
 }
