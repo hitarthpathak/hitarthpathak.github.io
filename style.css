@@ -73,17 +73,6 @@ a {
     margin-bottom: 1rem;
 }
 
-.bio button {
-    height: auto;
-    width: auto;
-    margin-bottom: 1rem;
-    padding: 0.7rem;
-    background-color: rgba(0, 0, 0, 0.800);
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-}
-
 .connect-boxes {
     height: auto;
     width: auto;
