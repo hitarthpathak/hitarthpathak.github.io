@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+#brogrammerz {
+    color: blue;
+}
+
 .navbar {
     height: auto;
     width: 100%;
