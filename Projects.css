@@ -50,15 +50,22 @@ a {
     text-decoration: underline;
 }
 
+.projects .project-category {
+    border: 1px solid black;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
 .projects-box {
     height: auto;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 3rem;
-    padding: 3rem 0 1rem 0;
 }
 
 .project {
@@ -109,14 +116,7 @@ a {
 
 .project-info p {
     font-size: 1rem;
-}
-
-.working {
-    height: auto;
-    width: fit-content;
-    font-weight: bold;
-    background-color: red;
-    color: white;
+    text-align: start;
 }
 
 .project-buttons {
