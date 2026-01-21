@@ -42,7 +42,12 @@ a {
 .projects {
     height: auto;
     width: 100%;
-    padding: 3rem 0;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .projects h1 {
@@ -55,7 +60,12 @@ a {
     height: auto;
     width: 90%;
     margin: auto;
-    text-align: center;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .projects-box {
@@ -65,7 +75,7 @@ a {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .project {
@@ -112,11 +122,6 @@ a {
     align-items: start;
     justify-content: space-evenly;
     flex-direction: column;
-}
-
-.project-info p {
-    font-size: 1rem;
-    text-align: start;
 }
 
 .project-buttons {

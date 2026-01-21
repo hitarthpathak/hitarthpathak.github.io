@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(130, 130, 130, 0.100);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar span {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.navbar span:hover {
+    text-decoration: underline;
+}
+
+.publications {
+    height: auto;
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.publications h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.publications-box {
+    border: 1px solid black;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.publication {
+    height: 10rem;
+    width: 30rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.publication h3 {
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.publication hr {
+    height: auto;
+    width: 100%;
+}
+
+.publication-platform {
+    height: auto;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.publication-buttons {
+    height: auto;
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.publication-buttons button {
+    height: auto;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.footer {
+    height: auto;
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+}
+
+.footer span {
+    font-size: 1rem;
+}

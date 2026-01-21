@@ -100,7 +100,12 @@ a {
 .projects {
     height: auto;
     width: 100%;
-    padding: 3rem 0;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .projects h1 {
@@ -108,15 +113,27 @@ a {
     text-decoration: underline;
 }
 
+.projects .project-category {
+    border: 1px solid black;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .projects-box {
     height: auto;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 3rem;
-    padding: 3rem 0 1rem 0;
+    gap: 2rem;
 }
 
 .project {
@@ -165,10 +182,6 @@ a {
     flex-direction: column;
 }
 
-.project-info p {
-    font-size: 1rem;
-}
-
 .project-buttons {
     height: auto;
     width: 100%;
@@ -189,11 +202,8 @@ a {
 
 .show-all {
     height: auto;
-    width: auto;
-    padding: 1rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    text-align: center;
 }
 
 .show-all button {
@@ -209,7 +219,12 @@ a {
 .publications {
     height: auto;
     width: 100%;
-    padding: 3rem 0;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .publications h1 {
@@ -218,24 +233,30 @@ a {
 }
 
 .publications-box {
+    border: 1px solid black;
     height: auto;
-    width: 100%;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 3rem;
-    padding: 3rem 0 1rem 0;
+    gap: 2rem;
 }
 
 .publication {
-    height: 30rem;
+    height: 10rem;
     width: 30rem;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .publication h3 {
-    height: 20%;
+    height: 50%;
     width: 100%;
     text-align: center;
     display: flex;
@@ -243,44 +264,30 @@ a {
     justify-content: center;
 }
 
-.publication-img {
-    border-top: 2px dotted black;
-    border-bottom: 2px dotted black;
-    height: 60%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.publication-img img {
+.publication hr {
     height: auto;
     width: 100%;
 }
 
-.publication-img p {
-    font-size: 1rem;
-}
-
-.publication-info {
-    height: 20%;
+.publication-platform {
+    height: auto;
     width: 100%;
     padding: 0.5rem;
     display: flex;
     align-items: start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
-}
-
-.publication-info p {
-    font-size: 1rem;
 }
 
 .publication-buttons {
     height: auto;
     width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .publication-buttons button {
