@@ -16,10 +16,6 @@ a {
     text-decoration: none;
 }
 
-#brogrammerz {
-    color: blue;
-}
-
 .navbar {
     height: auto;
     width: 100%;
@@ -49,15 +45,15 @@ a {
     padding: 3rem;
     display: flex;
     align-items: start;
-    justify-content: center;
-    gap: 3rem;
+    justify-content: space-evenly;
+    gap: 1rem;
 }
 
 .img-box {
-    height: 20rem;
-    width: 20rem;
+    height: auto;
+    width: 25rem;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 
@@ -69,13 +65,24 @@ a {
 .bio {
     border: 1px solid gray;
     height: 100%;
-    width: 50%;
+    width: auto;
     padding: 1rem;
     font-size: 1.3rem;
 }
 
 .bio p {
     margin-bottom: 1rem;
+}
+
+.bio table {
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    padding: 0.3rem;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 0.3rem;
 }
 
 .connect-boxes {
