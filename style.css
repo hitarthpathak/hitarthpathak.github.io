@@ -120,22 +120,12 @@ th, td {
     text-decoration: underline;
 }
 
-.projects .project-category {
+.projects-box {
     border: 1px solid black;
     height: auto;
     width: 90%;
     margin: auto;
-    padding: 2rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.projects-box {
-    height: auto;
-    width: 100%;
+    padding: 2rem 0rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,7 +234,7 @@ th, td {
     height: auto;
     width: 90%;
     margin: auto;
-    padding: 2rem;
+    padding: 2rem 0rem;
     display: flex;
     align-items: center;
     justify-content: center;
